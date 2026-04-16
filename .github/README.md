@@ -103,7 +103,11 @@ BOT_TOKEN=
 LOGGER_ID=
 MONGO_DB_URI=
 OWNER_ID=
-STRING_SESSION=
+STRING_SESSION1=
+STRING_SESSION2=
+STRING_SESSION3=
+STRING_SESSION4=
+STRING_SESSION5=
 ```
   </details>
 
@@ -120,7 +124,7 @@ STRING_SESSION=
 
 `LOGGER_ID` : Your Telegram Chat ID For logs Where Bot and Assistant Id Should Be AdMin! 
 
-`STRING_SESSION` : Add String session for assistant to play songs on voice chat.
+`STRING_SESSION1-5` : Add Pyrogram string sessions for assistants to play songs on voice chat. At least one session is required.
 
 `DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can click on logo below!
 
