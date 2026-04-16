@@ -21,9 +21,9 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("35411328"))
-API_HASH = getenv("4c8d3c8f5d3483296f5fb530ea2cfcc6")
-BOT_TOKEN = getenv("8541386166:AAHvSR2WdlaUOZMC7jLwt0ELuo7v2q9yELs")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Bot and owner info
 OWNER_USERNAME = getenv("OWNER_USERNAME", "gsiugeirbcodbsk_bot")
@@ -32,7 +32,7 @@ BOT_NAME = getenv("BOT_NAME", "tril")
 ASSUSERNAME = getenv("ASSUSERNAME", "🍹𝆺𝅥⃝🤍 ‌‌ ●🇷 🇦 🇩 🇭 🇦 🇦 🇸 🇸 🇮 T🇦 🇳 T🤍𝆺꯭𝅥⎯꯭‌⎯꯭")
 
 # MongoDB
-MONGO_DB_URI = getenv("mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
